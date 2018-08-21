@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AF3617E4D6F8DCFF94DF29E /* Pods_DriveAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFE29F6424A403980FA7759 /* Pods_DriveAITests.framework */; };
+		ABC53113A2D6140CB6B2102E /* Pods_DriveAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E06C5E303AD9BDB07BFDE93 /* Pods_DriveAI.framework */; };
+		C46E33E69167024CDE1E8629 /* Pods_DriveAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18424F44C11407BE489CA63 /* Pods_DriveAIUITests.framework */; };
 		DE0464E820F0444F00B4AEE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0464E720F0444F00B4AEE9 /* AppDelegate.swift */; };
 		DE0464EA20F0444F00B4AEE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0464E920F0444F00B4AEE9 /* ViewController.swift */; };
 		DE0464ED20F0444F00B4AEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0464EB20F0444F00B4AEE9 /* Main.storyboard */; };
 		DE0464F020F0444F00B4AEE9 /* DriveAI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE0464EE20F0444F00B4AEE9 /* DriveAI.xcdatamodeld */; };
-		DE0464F220F0445000B4AEE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0464F120F0445000B4AEE9 /* Assets.xcassets */; };
 		DE0464F520F0445000B4AEE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0464F320F0445000B4AEE9 /* LaunchScreen.storyboard */; };
 		DE04650020F0445100B4AEE9 /* DriveAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0464FF20F0445100B4AEE9 /* DriveAITests.swift */; };
 		DE04650B20F0445100B4AEE9 /* DriveAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04650A20F0445100B4AEE9 /* DriveAIUITests.swift */; };
+		DE04651920F04F5100B4AEE9 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE04651820F04F5100B4AEE9 /* NMAKit.framework */; };
+		DE04651A20F04F5100B4AEE9 /* NMAKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE04651820F04F5100B4AEE9 /* NMAKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE04651D20F102A000B4AEE9 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04651C20F102A000B4AEE9 /* EntryController.swift */; };
+		DE04652120F2B0D800B4AEE9 /* UserDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04652020F2B0D800B4AEE9 /* UserDict.swift */; };
+		DE2F482020FAE472003361FB /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F481F20FAE472003361FB /* GradientButton.swift */; };
+		DE2F482420FAF3F0003361FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE2F482320FAF3F0003361FB /* GoogleService-Info.plist */; };
+		DE2F482520FAF3F0003361FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE2F482320FAF3F0003361FB /* GoogleService-Info.plist */; };
+		DE2F482620FAF3F0003361FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE2F482320FAF3F0003361FB /* GoogleService-Info.plist */; };
+		DE8EF53C20F51F1400B85F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8EF53B20F51F1400B85F56 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +45,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DE04651B20F04F5100B4AEE9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE04651A20F04F5100B4AEE9 /* NMAKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5E06C5E303AD9BDB07BFDE93 /* Pods_DriveAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33FD58340660026B02F2833 /* Pods-DriveAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveAIUITests/Pods-DriveAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A357EC7B8C8F747F79579744 /* Pods-DriveAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveAITests/Pods-DriveAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9D35B91971C1FF94F7ADF6 /* Pods-DriveAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveAI/Pods-DriveAI.debug.xcconfig"; sourceTree = "<group>"; };
+		B18424F44C11407BE489CA63 /* Pods_DriveAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BDDC6E34FD71EB7F6AA3C8 /* Pods-DriveAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAI.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveAI/Pods-DriveAI.release.xcconfig"; sourceTree = "<group>"; };
 		DE0464E420F0444F00B4AEE9 /* DriveAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0464E720F0444F00B4AEE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE0464E920F0444F00B4AEE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE0464EC20F0444F00B4AEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE0464EF20F0444F00B4AEE9 /* DriveAI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DriveAI.xcdatamodel; sourceTree = "<group>"; };
-		DE0464F120F0445000B4AEE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE0464F420F0445000B4AEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE0464F620F0445000B4AEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0464FB20F0445000B4AEE9 /* DriveAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +79,15 @@
 		DE04650620F0445100B4AEE9 /* DriveAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE04650A20F0445100B4AEE9 /* DriveAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAIUITests.swift; sourceTree = "<group>"; };
 		DE04650C20F0445100B4AEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE04651820F04F5100B4AEE9 /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMAKit.framework; path = HERE_iOS_SDK_Starter/framework/NMAKit.framework; sourceTree = "<group>"; };
+		DE04651C20F102A000B4AEE9 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		DE04652020F2B0D800B4AEE9 /* UserDict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDict.swift; sourceTree = "<group>"; };
+		DE2F481F20FAE472003361FB /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		DE2F482320FAF3F0003361FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE8EF53B20F51F1400B85F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBFE29F6424A403980FA7759 /* Pods_DriveAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5381E82B87279A05C294EF /* Pods-DriveAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveAITests/Pods-DriveAITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA4D10230C28A88DB657E35B /* Pods-DriveAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveAIUITests/Pods-DriveAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE04651920F04F5100B4AEE9 /* NMAKit.framework in Frameworks */,
+				ABC53113A2D6140CB6B2102E /* Pods_DriveAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF3617E4D6F8DCFF94DF29E /* Pods_DriveAITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +112,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46E33E69167024CDE1E8629 /* Pods_DriveAIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A121AAD2C6A9034AA2E14A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E06C5E303AD9BDB07BFDE93 /* Pods_DriveAI.framework */,
+				EBFE29F6424A403980FA7759 /* Pods_DriveAITests.framework */,
+				B18424F44C11407BE489CA63 /* Pods_DriveAIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD43254C6C9242BBB6E814F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE9D35B91971C1FF94F7ADF6 /* Pods-DriveAI.debug.xcconfig */,
+				C4BDDC6E34FD71EB7F6AA3C8 /* Pods-DriveAI.release.xcconfig */,
+				A357EC7B8C8F747F79579744 /* Pods-DriveAITests.debug.xcconfig */,
+				EE5381E82B87279A05C294EF /* Pods-DriveAITests.release.xcconfig */,
+				FA4D10230C28A88DB657E35B /* Pods-DriveAIUITests.debug.xcconfig */,
+				A33FD58340660026B02F2833 /* Pods-DriveAIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE0464DB20F0444F00B4AEE9 = {
 			isa = PBXGroup;
 			children = (
+				DE04651820F04F5100B4AEE9 /* NMAKit.framework */,
 				DE0464E620F0444F00B4AEE9 /* DriveAI */,
 				DE0464FE20F0445100B4AEE9 /* DriveAITests */,
 				DE04650920F0445100B4AEE9 /* DriveAIUITests */,
 				DE0464E520F0444F00B4AEE9 /* Products */,
+				AD43254C6C9242BBB6E814F3 /* Pods */,
+				28A121AAD2C6A9034AA2E14A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +168,17 @@
 		DE0464E620F0444F00B4AEE9 /* DriveAI */ = {
 			isa = PBXGroup;
 			children = (
+				DE2F482320FAF3F0003361FB /* GoogleService-Info.plist */,
 				DE0464E720F0444F00B4AEE9 /* AppDelegate.swift */,
 				DE0464E920F0444F00B4AEE9 /* ViewController.swift */,
 				DE0464EB20F0444F00B4AEE9 /* Main.storyboard */,
-				DE0464F120F0445000B4AEE9 /* Assets.xcassets */,
 				DE0464F320F0445000B4AEE9 /* LaunchScreen.storyboard */,
 				DE0464F620F0445000B4AEE9 /* Info.plist */,
 				DE0464EE20F0444F00B4AEE9 /* DriveAI.xcdatamodeld */,
+				DE04651C20F102A000B4AEE9 /* EntryController.swift */,
+				DE04652020F2B0D800B4AEE9 /* UserDict.swift */,
+				DE8EF53B20F51F1400B85F56 /* Assets.xcassets */,
+				DE2F481F20FAE472003361FB /* GradientButton.swift */,
 			);
 			path = DriveAI;
 			sourceTree = "<group>";
@@ -135,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE04650F20F0445100B4AEE9 /* Build configuration list for PBXNativeTarget "DriveAI" */;
 			buildPhases = (
+				A7C5583DB15FF59975D64D5C /* [CP] Check Pods Manifest.lock */,
 				DE0464E020F0444F00B4AEE9 /* Sources */,
 				DE0464E120F0444F00B4AEE9 /* Frameworks */,
 				DE0464E220F0444F00B4AEE9 /* Resources */,
+				DE04651B20F04F5100B4AEE9 /* Embed Frameworks */,
+				02C3BFC56C7F6153CC477902 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE04651220F0445100B4AEE9 /* Build configuration list for PBXNativeTarget "DriveAITests" */;
 			buildPhases = (
+				F04CBBB79F4EF1C59CB37E64 /* [CP] Check Pods Manifest.lock */,
 				DE0464F720F0445000B4AEE9 /* Sources */,
 				DE0464F820F0445000B4AEE9 /* Frameworks */,
 				DE0464F920F0445000B4AEE9 /* Resources */,
@@ -170,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE04651520F0445100B4AEE9 /* Build configuration list for PBXNativeTarget "DriveAIUITests" */;
 			buildPhases = (
+				0F130E75A1F9A02BE5D1F86D /* [CP] Check Pods Manifest.lock */,
 				DE04650220F0445100B4AEE9 /* Sources */,
 				DE04650320F0445100B4AEE9 /* Frameworks */,
 				DE04650420F0445100B4AEE9 /* Resources */,
@@ -233,7 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0464F520F0445000B4AEE9 /* LaunchScreen.storyboard in Resources */,
-				DE0464F220F0445000B4AEE9 /* Assets.xcassets in Resources */,
+				DE2F482420FAF3F0003361FB /* GoogleService-Info.plist in Resources */,
+				DE8EF53C20F51F1400B85F56 /* Assets.xcassets in Resources */,
 				DE0464ED20F0444F00B4AEE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2F482520FAF3F0003361FB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +329,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2F482620FAF3F0003361FB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02C3BFC56C7F6153CC477902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DriveAI/Pods-DriveAI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DriveAI/Pods-DriveAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F130E75A1F9A02BE5D1F86D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C5583DB15FF59975D64D5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04CBBB79F4EF1C59CB37E64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE0464E020F0444F00B4AEE9 /* Sources */ = {
@@ -260,7 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0464EA20F0444F00B4AEE9 /* ViewController.swift in Sources */,
+				DE2F482020FAE472003361FB /* GradientButton.swift in Sources */,
 				DE0464E820F0444F00B4AEE9 /* AppDelegate.swift in Sources */,
+				DE04652120F2B0D800B4AEE9 /* UserDict.swift in Sources */,
+				DE04651D20F102A000B4AEE9 /* EntryController.swift in Sources */,
 				DE0464F020F0444F00B4AEE9 /* DriveAI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,11 +597,17 @@
 		};
 		DE04651020F0445100B4AEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9D35B91971C1FF94F7ADF6 /* Pods-DriveAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CVNFDL8H74;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HERE_iOS_SDK_Starter/framework",
+				);
 				INFOPLIST_FILE = DriveAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +621,17 @@
 		};
 		DE04651120F0445100B4AEE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BDDC6E34FD71EB7F6AA3C8 /* Pods-DriveAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CVNFDL8H74;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HERE_iOS_SDK_Starter/framework",
+				);
 				INFOPLIST_FILE = DriveAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +645,7 @@
 		};
 		DE04651320F0445100B4AEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A357EC7B8C8F747F79579744 /* Pods-DriveAITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +667,7 @@
 		};
 		DE04651420F0445100B4AEE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5381E82B87279A05C294EF /* Pods-DriveAITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +689,7 @@
 		};
 		DE04651620F0445100B4AEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4D10230C28A88DB657E35B /* Pods-DriveAIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +710,7 @@
 		};
 		DE04651720F0445100B4AEE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33FD58340660026B02F2833 /* Pods-DriveAIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

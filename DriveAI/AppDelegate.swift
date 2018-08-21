@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import NMAKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        NMAApplicationContext.set(appId: "ysnhrrCswoeWmDQJHhLG",
+                                  appCode: "2GvVZvsepz5Vu-1aoXo9mQ")
+        FirebaseApp.configure()
         // Override point for customization after application launch.
         return true
     }
